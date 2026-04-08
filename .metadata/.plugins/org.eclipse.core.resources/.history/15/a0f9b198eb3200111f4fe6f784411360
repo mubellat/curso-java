@@ -1,0 +1,19 @@
+package training;
+import java.util.Scanner;
+
+public class Input {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name;
+		int age;
+		
+		System.out.printf("What is your name? ");
+		name = sc.next();
+		System.out.printf("How old are you? ");
+		age = sc.nextInt();
+		
+		System.out.printf("You is %s and have %d years !!", name, age);
+		
+		sc.close();
+	}
+}

@@ -1,0 +1,12 @@
+import java.util.Locale;
+
+public class Test {
+	public static void main(String[] args) {
+		
+		double x = 10.35784;
+		System.out.println(x);
+		System.out.println("%.2f%n", x);
+		System.out.println("%.4f%n", x);
+		Locale.setDefault(Locale.US);
+	}
+}

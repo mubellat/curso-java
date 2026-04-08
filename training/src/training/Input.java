@@ -1,0 +1,29 @@
+package training;
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Input {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name;
+		int age;
+		double weight;
+		char letter;
+		
+		System.out.printf("What is your name? ");
+		name = sc.next();
+		System.out.printf("How old are you? ");
+		age = sc.nextInt();
+		
+		Locale.setDefault(Locale.US);
+		
+		System.out.printf("What is your weight (kg) ? ");
+		weight = sc.nextDouble();
+		System.out.printf("You is %s and have %d years !!\nYou have %.1f kilograms !!", name, age, weight);
+		
+		System.out.printf("\nType a letter: ");
+		letter = sc.next().charAt(0);
+		System.out.println(letter);
+		sc.close();
+	}
+}

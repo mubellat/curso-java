@@ -1,0 +1,17 @@
+package training;
+import java.util.Locale;
+
+public class Test {
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		String name = "Murilo";
+		int age = 22;
+		double x = 10.35784;
+		System.out.println(x);
+		System.out.printf("%.2f%n", x);
+		System.out.printf("%.4f%n", x);
+		System.out.println("Resultado = " + x + " metros");
+		System.out.printf("Resultado = %.2f metros\n", x);
+		System.out.printf("Hello my name is %s, i have %d years !!!", name, age);
+	}
+}

@@ -1,0 +1,23 @@
+package training;
+
+public class Triangle {
+	public static void main (String[] args) {
+		double b, B, h, area;
+		b = 6;
+		B = 8;
+		h = 5;
+		
+		area = (b + B ) / 2 * h;
+		
+		System.out.printf("Area of the triangle: %.2f\n", area);
+		
+		int number1, number2;
+		double result;
+		
+		number1 = 5;
+		number2 = 2;
+		result = number1 / number2;
+		
+		System.out.printf("Division = %.1f", result);
+	}
+}
